@@ -1,2 +1,5 @@
-# PCA-from-Scratch
-PCA used for classification of Iris Dataset.
+# PCA and LDA-from-Scratch
+1. PCA and LDA used for classification of Iris Dataset.
+2. PCA is a general approach for denoising and dimensionality reduction and does not require any further information such as class labels in supervised learning. Therefore it can be used in unsupervised learning.
+3. PCA allows the collapsing of hundreds of spatial dimensions into a handful of lower spatial dimensions while preserving 70% - 90% of the important information. 3D objects cast 2D shadows. We can see the shape of an object from it's shadow. But we can't know everything about the shape from a single shadow. By having a small collection of shadows from different (globally optimal) angles, then we can know most things about the shape of an object. PCA helps reduce the 'Curse of Dimensionality' when modelling. LDA is for classification, it almost always outperforms Logistic Regression when modelling small data with well separated clusters. It also handles multi-class data and class imbalances.
+4. Hence, LDA is more suitable for classification but for LDA improvement PCA is the answer. 
